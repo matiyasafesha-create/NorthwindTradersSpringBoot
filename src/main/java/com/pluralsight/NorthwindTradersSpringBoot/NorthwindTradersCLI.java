@@ -83,6 +83,7 @@ public class NorthwindTradersCLI implements CommandLineRunner {
             productDao.add(new Product(product,name,category,price));
             System.out.println("Successfully Added !!");
 
+
         }
 
         public void processSearchName() {
@@ -102,7 +103,7 @@ public class NorthwindTradersCLI implements CommandLineRunner {
 
         public void processRemoveProduct(){
         scanner.nextLine();
-            System.out.print("What Product Do you Want to Remove: ");
+            System.out.print("What Product Do you Want to Remove:");
 
         }
 
